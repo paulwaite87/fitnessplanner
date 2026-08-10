@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "trainingpeaks": {
+      "type": "stdio",
+      "command": "/var/share/dev/fitnessplanner/trainingpeaks-mcp/.venv/bin/tp-mcp",
+      "args": [
+        "serve"
+      ]
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m json.tool)",
+      "Bash(python3 -m json.tool /home/paul/.claude/settings.json)"
+    ]
+  }
+}
