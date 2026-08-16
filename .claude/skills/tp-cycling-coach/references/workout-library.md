@@ -87,9 +87,14 @@ Start a returning archetype at the step the athlete last completed, then advance
 
 ## Bike - easy / supporting
 
+Indoor sessions of any shape below (easy spin, endurance, recovery) must be built as alternating segments, not
+one flat block - see "Indoor sessions - always structure, never a flat block" in `training-model.md`. Outdoor
+rides can stay flat.
+
 ### Endurance (Z2)
 - **Shape:** 60-180 min @ 60-70% FTP, genuinely easy. Optional 3-5 x 10s neuromuscular spin-ups.
 - **Cadence:** 85-95 RPM.
+- **Indoors:** alternate seated/high-cadence blocks (e.g. 5 min @ lower end of the range, 5 min @ upper end with cadence 95-100) every 4-8 min instead of one flat effort.
 - **Purpose:** volume that builds fitness without denting recovery.
 
 ### Muscle Tension (MT)
