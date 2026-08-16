@@ -9,3 +9,6 @@ build/
 dist/
 *.egg-info
 
+# Athlete PII - see athlete.json.tmpl for the expected shape
+.claude/skills/tp-cycling-coach/athlete.json
+
