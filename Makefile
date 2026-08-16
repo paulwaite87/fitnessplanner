@@ -15,6 +15,18 @@ init_env: .env
 
 init_claude_settings: .claude/settings.local.json
 
+## Registers the trainingpeaks MCP server in local (per-machine) Claude config.
+## Needed because mcpServers declared in .claude/settings.local.json require an
+## interactive approval that never happens on a fresh machine/session; adding it
+## via `claude mcp add -s local` writes straight to the trusted local scope.
+## TP_AUTH_COOKIE is passed explicitly (from .env) as the server's own env block,
+## since it otherwise only reaches `make` targets, not the subprocess Claude
+## launches - without it, tp-mcp falls back to the system keyring, which hangs
+## on headless Linux boxes with no Secret Service.
+init_claude_mcp:
+	@claude mcp remove trainingpeaks -s local >/dev/null 2>&1 || true
+	@claude mcp add trainingpeaks -s local -e TP_AUTH_COOKIE="$(TP_AUTH_COOKIE)" -- "$(CURDIR)/trainingpeaks-mcp/.venv/bin/tp-mcp" serve
+
 init_ssh:
 	@echo "Ensuring SSH keys are loaded into the session.."
 	@ssh-add -q < /dev/tty 2>/dev/null || true
@@ -37,6 +49,7 @@ init: init_env init_ssh init_submodules init_claude_settings
 	uv run python3 -m venv .venv ;\
 	uv run pip install -e . ;\
 	echo "Workspace initialised"
+	@$(MAKE) init_claude_mcp
 
 cookie login:
 	@cd trainingpeaks-mcp ;\
