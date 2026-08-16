@@ -37,3 +37,11 @@ Assuming it can, you can create a week's training plan using the following:
 ```
 /tp-cycling-coach
 ```
+If this is the first time, it will ask you questions about yourself. It stores all
+that stuff in a local file `athlete.json`.
+
+Otherwise it will do the same thing each time: generate a new plan for the week for
+you. This skill is in `.claude/skills/tp-cycling-coach` and in that same folder you
+will find a sub-directory `references`. This has a bunch of .md docs which guide
+Claude in creating your plan, so feel free to experiment with them to tune this
+to your own requirement. Out of the box it should stand up pretty well, however.
