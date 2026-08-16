@@ -16,14 +16,14 @@ just to find out about your current data, or to tweak your workouts directly.
 A prerequisite is having access to Claude Code. All planning is done from within
 the Claude Code terminal.
 
-Having cloned this repo, do the following:
+Having cloned this repo, do the following in a terminal (shell):
 ```
 make init
 ```
 This will clone the TrainingPeaks MCP server submodule, and set up Claude settings
-so it all works. Once that's done, fire up a browser and log in to your TrainingPeaks
-account. This browser session will be used to acquire a cookie from. To do that
-return to your terminal session and:
+so it all works. Once that's done, fire up a web browser and log in to your TrainingPeaks
+account. This browser session will be used to acquire a cookie from so just keep it
+open. To do that return to your terminal session and:
 ```
 make cookie
 ```
@@ -31,7 +31,7 @@ If that was successful your local .env file should contain a sane value assigned
 to the TP_AUTH_COOKIE setting.
 
 Next, exit Claude Code, if you had a session going, and in the repo root fire it
-up again. Then ask it if it can access TrainingPeaks.
+up again so it acquired the new MCP server. Then ask it if it can access TrainingPeaks.
 
 Assuming it can, you can create a week's training plan using the following:
 ```
