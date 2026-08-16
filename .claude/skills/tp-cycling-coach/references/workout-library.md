@@ -28,7 +28,7 @@ For setting levels of effort for 30/15s, estimate the maximum 5 minute effort ba
 
 | Archetype | Step 1 | Step 2 | Step 3 |
 |-----------|--------|--------|--------|
-| Sweet spot | 2 × 20 min @ 88% | 2 × 20 min @ 90% | 2 × 25 min @ 90% or 3 × 15 min @ 92% |
+| Sweet spot | 2 × 12 min @ 88% | 2 × 12 min @ 90% | 2 × 15 min @ 90% or 3 × 15 min @ 92% |
 | 30/15s (Rønnestad) | 2 sets × 13 reps @ 110% | 3 sets × 13 reps @ 110% | 3 sets × 13 reps @ 112–115% |
 | VO2max | 4 × 4 min @ 110% | 5 × 4 min @ 112% | 5 × 4 min @ 115–120% |
 | 40/20s | 2 sets × 8 reps @ 118% | 2 sets × 9 reps @ 120% | 3 sets × 8 reps @ 120% |
@@ -104,28 +104,22 @@ Start a returning archetype at the step the athlete last completed, then advance
 
 ## Example polarized week
 
-| Day | Session | Format |
+| Day | Session |
 |---|---|---|
-| Mon | Rest or easy spin | - / short Z2 .zwo |
-| Tue | 30/15s Rønnestad 3×13 | .zwo |
-| Wed | Endurance Z2 | .zwo or outdoor |
-| Thu | 40/20s 3x9 | .zwo |
-| Fri | Rest / easy | - |
-| Sat | Group ride | outdoor (counts as hard) |
-| Sun | Long endurance | .zwo or outdoor |
+| Mon | Rest or easy spin |
+| Tue | 30/15s Rønnestad 3×13 |
+| Wed | Endurance Z2 |
+| Thu | 40/20s 3x9 |
+| Fri | Rest / easy |
+| Sat | Group ride |
+| Sun | Long endurance |
 
 If Saturday is hard, keep Tue **or** Thu hard, not both - never three hard days.
 
 ## Strength - cycling-specific (gym, deliver as markdown)
 
-Goal is durable power and injury resilience, not bulk. 2x/week off-season, 1x/week in-season as maintenance. `.zwo` cannot represent this. For exercise selection, sets, reps, and cues see `references/strength-library.md`.
+Goal is durable power and injury resilience, not bulk. 2x/week off-season, 1x/week in-season as maintenance. For exercise selection, sets, reps, and cues see `references/strength-library.md`.
 
 Keep heavy lower-body work away from hard bike days (ideally same day as a hard ride or on a rest day, never the day before VO2/intervals).
-
-## Cardio - supporting (non-bike)
-
-For cross-training or active recovery when off the bike:
-- Easy zone-2 run or brisk walk, 30-45 min, conversational. Treadmill version can be a `run` `.zwo` if wanted.
-- Mobility / stretching block, 15-20 min, hips and thoracic spine.
 
 Keep all of this genuinely easy so it does not compete with hard bike sessions for recovery.

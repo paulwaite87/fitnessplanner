@@ -1,4 +1,4 @@
-# TrainingPeaks access and snapshot output
+# TrainingPeaks Access
 Pull the athlete's recent data before building, so the plan is grounded in what they did and their current numbers. TrainingPeaks is the source for all the data, so if the site is unreachable, then say so, together with any diagnostics to help with re-establishing connectivity.
 
 
