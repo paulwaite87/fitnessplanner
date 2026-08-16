@@ -12,3 +12,6 @@ dist/
 # Athlete PII - see athlete.json.tmpl for the expected shape
 .claude/skills/tp-cycling-coach/athlete.json
 
+# Generated weekly plans contain athlete PII (name, age, FTP, goal)
+.claude/skills/tp-cycling-coach/Plan-*.md
+
