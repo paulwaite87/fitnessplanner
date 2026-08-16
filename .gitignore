@@ -15,3 +15,6 @@ dist/
 # Generated weekly plans contain athlete PII (name, age, FTP, goal)
 .claude/skills/tp-cycling-coach/Plan-*.md
 
+# Machine-local Claude Code settings (MCP server paths, personal permissions)
+.claude/settings.local.json
+
