@@ -2,11 +2,16 @@
 
 All targets are % FTP. Convert to watts in the description when FTP is known. Two hard sessions per week is the ceiling for the polarized model; everything else stays easy.
 
+## Easing into it
+If a rider is starting training after a layoff then ease them into it. For example if the workouts below specify 3 set of intervals, then program 1 set, then 2 sets then finally 3 sets to begin with.
+
 ## Session rotation and progression
 
 Never repeat the exact same archetype two weeks in a row unless the athlete is in a deliberate progression block. Use the archetypes extracted from last week's TrainingPeaks activities (see `TrainingPeaks-access.md`) to choose something different or to advance the progression.
 
 **Rotation order** (cycle through within the rider type's priority list):
+
+Note: If the rider type is unknown at this stage, then default to All-rounder.
 
 Use the ISO 8601 week number mod 3 to pick the row (e.g. week 27 → 27 % 3 = 0).
 
@@ -17,6 +22,7 @@ Use the ISO 8601 week number mod 3 to pick the row (e.g. week 27 → 27 % 3 = 0)
 | 2 | Over-unders + Sweet spot | 30/15s + Sweet spot | 40/20s + 30/15s |
 
 > **30/15s (Rønnestad) replaces the classic VO2max slot throughout.** Research (Rønnestad et al.) shows 3 × 13 reps outperform 4–5 min evenly-paced intervals for VO2max and power gains in well-trained cyclists. Classic VO2max (4×4 min) may substitute any 30/15s slot if the athlete genuinely prefers longer efforts.
+For setting levels of effort for 30/15s, estimate the maximum 5 minute effort based on the riders current FTP. That value will be the 30 second interval (hard). The 15 second interval (easy) will be half that level.
 
 **Progression within an archetype** (when the same type repeats after a gap):
 
@@ -38,7 +44,7 @@ Start a returning archetype at the step the athlete last completed, then advance
 ### VO2max
 - **Shape:** 4-5 x 4 min @ 110-120% FTP, equal (4 min) recovery @ ~50%.
 - **Progression:** start at 4 reps / 110%, build toward 5 reps / 115-120% over a block.
-- **Cadence:** 90-100 RPM — keep it cardiovascular, not a grind.
+- **Cadence:** 85-100 RPM — keep it cardiovascular, not a grind.
 - **Purpose:** raises the ceiling so repeated surges become survivable.
 
 ### 40/20s (or 30/30s)
