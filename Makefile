@@ -9,6 +9,12 @@ export
 
 init_env: .env
 
+.claude/settings.local.json: claude_settings.json.tmpl
+	@echo "Creating .claude/settings.local.json from claude_settings.json.tmpl"; \
+	sed -e "s|__REPO_ROOT__|$(CURDIR)|g" -e "s|__HOME__|$(HOME)|g" claude_settings.json.tmpl > .claude/settings.local.json
+
+init_claude_settings: .claude/settings.local.json
+
 init_ssh:
 	@echo "Ensuring SSH keys are loaded into the session.."
 	@ssh-add -q < /dev/tty 2>/dev/null || true
@@ -26,7 +32,7 @@ init_submodules:
 	done
 	@git submodule update --init --recursive --progress
 
-init: init_env init_ssh init_submodules
+init: init_env init_ssh init_submodules init_claude_settings
 	@cd trainingpeaks-mcp ;\
 	uv run python3 -m venv .venv ;\
 	uv run pip install -e . ;\
