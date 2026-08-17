@@ -85,11 +85,15 @@ Start a returning archetype at the step the athlete last completed, then advance
 - **Cadence:** 110+ RPM throughout (out-of-saddle starts are fine).
 - **Purpose:** trains the ability to go hard when already fatigued, and builds top-end repeatability. The decreasing duration rewards commitment: each rep is shorter but harder because recovery shortens too.
 
-## Bike - easy / supporting
-
-Indoor sessions of any shape below (easy spin, endurance, recovery) must be built as alternating segments, not
-one flat block - see "Indoor sessions - always structure, never a flat block" in `training-model.md`. Outdoor
-rides can stay flat.
+## Recovery/Easy sessions
+An recovery session will satisfy the following rules/constraints:
+* They are always done indoors.
+* Duration will be between 30 and 40 minutes.
+* They will start with a 5 minute warmup
+* The reminder of the session will be structured intervals no longer than 3 minutes.
+* All intervals will be different; not one will be the same structure.
+* Recovery intervals should involve short efforts, not just spinning. Eg 15 sec @ 80% FTP/30 sec @ 40% FTP
+* The overall idea is to make the recovery session a varied, interesting journey, rather than a boring spinathon.
 
 ### Endurance (Z2)
 - **Shape:** 60-180 min @ 60-70% FTP, genuinely easy. Optional 3-5 x 10s neuromuscular spin-ups.
@@ -108,7 +112,6 @@ rides can stay flat.
 - If a group ride is the hard session, drop one structured hard session that week.
 
 ## Example polarized week
-
 | Day | Session |
 |---|---|---|
 | Mon | Rest or easy spin |
@@ -122,7 +125,6 @@ rides can stay flat.
 If Saturday is hard, keep Tue **or** Thu hard, not both - never three hard days.
 
 ## Strength - cycling-specific (gym, deliver as markdown)
-
 Goal is durable power and injury resilience, not bulk. 2x/week off-season, 1x/week in-season as maintenance. For exercise selection, sets, reps, and cues see `references/strength-library.md`.
 
 Keep heavy lower-body work away from hard bike days (ideally same day as a hard ride or on a rest day, never the day before VO2/intervals).
