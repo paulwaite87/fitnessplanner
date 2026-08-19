@@ -26,14 +26,10 @@ Apply these on top of the polarized structure. Read `age` from `athlete.json`.
 - **50+ (senior masters):** default to two easy or rest days between hard sessions; reduce total weekly volume before reducing intensity; recovery weeks every 2–3 weeks instead of every 4.
 
 ## Indoor sessions - always structure, never a flat block
-Indoor training is mentally harder than outdoor riding at the same physical load - no scenery, coasting, or
-terrain to break things up. Regardless of zone or purpose (recovery spin, endurance, or a key session), never
-program an indoor ride as a single flat continuous block. Split it into varied structure segments instead - e.g.
-seated/high-cadence blocks, or some short sharp efforts (eg 15 secs @ 80% FTP/30 secs easy x 5) or small 
-undulations of a few % FTP up and down every 4-8 minutes to mimic rolling terrain - while keeping the 
-average intensity and total load the same as the flat version would have been. This is about variety, 
-not effort: easy stays easy. Outdoor rides don't need this treatment since terrain and traffic
-already provide it.
+* An indoor session will never be a flat block, always varied structure segments instead.
+* Warmup for all indoor sessions will be 5 minutes.
+* Cooldown will never be more than 3 minutes. 
+* Recovery rides will have no cooldown.
 
 ## Standard session shapes
 Note these are just suggestions, and variation is actually expected so we can keep the workouts interesting and

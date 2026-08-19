@@ -89,8 +89,9 @@ Start a returning archetype at the step the athlete last completed, then advance
 An recovery session will satisfy the following rules/constraints:
 * They are always done indoors.
 * Duration will be between 30 and 40 minutes.
-* They will start with a 5 minute warmup
-* The reminder of the session will be structured intervals no longer than 3 minutes.
+* They will start with a 5 minute warmup.
+* There will be no cooldown.
+* After warmup the session will be structured intervals no longer than 3 minutes.
 * All intervals will be different; not one will be the same structure.
 * Recovery intervals should involve short efforts, not just spinning. Eg 15 sec @ 80% FTP/30 sec @ 40% FTP
 * The overall idea is to make the recovery session a varied, interesting journey, rather than a boring spinathon.
