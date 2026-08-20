@@ -92,6 +92,7 @@ An recovery session will satisfy the following rules/constraints:
 * They will start with a 5 minute warmup.
 * There will be no cooldown.
 * After warmup the session will be structured intervals no longer than 3 minutes.
+* A 3 minute interval must never be a single flat effort, it must have at least 2 levels of effort.
 * All intervals will be different; not one will be the same structure.
 * Recovery intervals should involve short efforts, not just spinning. Eg 15 sec @ 80% FTP/30 sec @ 40% FTP
 * The overall idea is to make the recovery session a varied, interesting journey, rather than a boring spinathon.
